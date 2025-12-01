@@ -17,7 +17,7 @@ def plot_data(data, style="whitegrid"):
     plt.figure(figsize=(12,6))
     sns.lineplot(x="Date", y="Price", hue="Ticker", data=long_df)
 
-    plt.title("Stock Prices - Last 6 Months")
+    plt.title("Stock Prices")
     plt.xlabel("Date")
     plt.ylabel("Price (USD)")
     plt.legend(title="Ticker")
