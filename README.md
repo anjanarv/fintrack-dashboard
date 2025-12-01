@@ -34,7 +34,7 @@ Currently focused on **Apple (AAPL)** or any tickers you define in your `.env` f
 
 ## Usage
 ```bash
-python agent.py
+python3 main.py
 ```
 
 This will:
